@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Оценка недвижимости</title>
+</head>
+<body>
+    <h2>Введите параметры недвижимости</h2>
+    <form action="/predict" method="post">
+        Площадь (sqft): <input type="number" name="sqft"><br>
+        Кол-во спален: <input type="number" name="beds"><br>
+        Кол-во ванных: <input type="number" name="baths"><br>
+        Наличие бассейна (1/0): <input type="number" name="has_pool"><br>
+        Наличие каминов (0-2): <input type="number" name="fireplace_count"><br>
+
+        <label for="state">Штат:</label>
+        <select name="state" id="state">
+          <option value="13.351">NY</option>
+          <option value="13.332">CA</option>
+          <option value="13.308">DC</option>
+          <option value="13.269">MA</option>
+          <option value="13.089">WA</option>
+          <option value="13.058">OR</option>
+          <option value="12.991">CO</option>
+          <option value="12.965">UT</option>
+          <option value="12.934">MD</option>
+          <option value="12.768">VA</option>
+          <option value="12.766">NV</option>
+          <option value="12.750">DE</option>
+          <option value="12.743">SC</option>
+          <option value="12.689">BA</option>
+          <option value="12.680">FL</option>
+          <option value="12.670">GA</option>
+          <option value="12.667">NC</option>
+          <option value="12.655">FI</option>
+          <option value="12.636">TX</option>
+          <option value="12.614">TN</option>
+          <option value="12.612">OS</option>
+          <option value="12.605">MT</option>
+          <option value="12.594">NJ</option>
+          <option value="12.519">AZ</option>
+          <option value="12.561">IL</option>
+          <option value="12.493">OT</option>
+          <option value="12.424">VT</option>
+          <option value="12.413">PA</option>
+          <option value="12.319">IN</option>
+          <option value="12.302">WI</option>
+          <option value="12.213">MO</option>
+          <option value="12.208">MS</option>
+          <option value="12.122">OH</option>
+          <option value="12.118">OK</option>
+          <option value="12.067">MI</option>
+          <option value="11.990">KI</option>
+          <option value="11.984">IA</option>
+          <option value="11.975">ME</option>
+        </select><br>
+        <label for="stories">"Этажность":</label>
+        <select name="stories" id="stories">
+          <option value="12.843">unknown</option>
+          <option value="12.570">1 story</option>
+          <option value="12.233">1.5 story</option>
+          <option value="12.866">2 story</option>
+          <option value="12.714">2.5 story</option>
+          <option value="13.082">3 story</option>
+          <option value="13.018">4+ story</option>
+          <option value="13.042">multy/split</option>
+          <option value="13.077">multy</option>
+          <option value="12.629">cottage</option>
+        <input type="submit" value="Оценить">
+    </form>
+</body>
+</html>
