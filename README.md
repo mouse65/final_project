@@ -1,4 +1,4 @@
-# final_project
+## 🏠
 # Инициализация модели
 Модель прогнозирования с использованием LinearRegression, CatboostRegresser, RandomForestRegressor
 # SkillFactory Финальный проект - Прогнозирование стоимости жилья для агентства недвижимости
