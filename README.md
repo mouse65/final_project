@@ -48,7 +48,8 @@ ML‑модель + веб‑сервис для автоматической о
 - Ridge
 - RandomForestRegressor
 - CatBoostRegressor
-- StackingRegressor (CatBoost + RandomForest)  
+- StackingRegressor (CatBoost + RandomForest)
+  
 Для CatBoost использован подбор гиперпараметров через RandomizedSearchCV  
 Произведено сравнение построиных моделей
 ## запуск программы моделирования
