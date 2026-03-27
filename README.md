@@ -60,6 +60,8 @@ ML‑модель + веб‑сервис для автоматической о
 
 ## Лучший результата
 
+Наилучшие метрики показал StackingRegressor, который и был сохранён в файл stack_model.pkl.
+
 ## запуск программы моделирования
   - my_diplom_final.ipynb  - программа для обработки исходных данных и создания всех моделей.
   - data/data.csv - положение таблицы исходных данных (находистя отдельно от githab по ссылке https://drive.google.com/file/d/1HTKeB967hdvCrpzaM_2R0fg-qKsU6Ep7/view?usp=drive_link)
