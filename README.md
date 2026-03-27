@@ -66,7 +66,7 @@ ML‑модель + веб‑сервис для автоматической о
   - my_diplom_final.ipynb  - программа для обработки исходных данных и создания всех моделей.
   - data/data.csv - положение таблицы исходных данных (находистя отдельно от githab по ссылке https://drive.google.com/file/d/1HTKeB967hdvCrpzaM_2R0fg-qKsU6Ep7/view?usp=drive_link)
 
-## запуск вебсервиса
+## 🌐 запуск вебсервиса
   -  загрузить stack_model.pkl по ссылке https://drive.google.com/file/d/1MLQJet0mzRE9zcisnlnwvi71kfyGQ8GN/view?usp=drive_link
   -  положить  stack_model.pkl в директорию проекта
   -  проверить наличие templates/index.html  в директории проекта
